@@ -1,6 +1,10 @@
  # Employee Management Portal
  
- ## Application Home Page :
+ ## Login Page 
+ 
+ ![Login Page](src/assets/images/LoginPage.PNG)
+ 
+ ## Home Page :
 
 ![Home Page](src/assets/images/HomePage.PNG)
 
