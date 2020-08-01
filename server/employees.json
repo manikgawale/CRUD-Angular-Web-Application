@@ -1,0 +1,23 @@
+ [
+    {
+      "employeeId": "Ajay.Kango",
+      "jobTitleName": "Developer",
+      "firstName": "Ajay",
+      "lastName": "Kango",
+      "emailAddress": "Ajay.Kango@gmail.com"
+    },
+    {
+      "employeeId": "Manik.Gawale",
+      "jobTitleName": "Developer",
+      "firstName": "Manik",
+      "lastName": "Gawale",
+      "emailAddress": "Manik.Gawale@gmail.com"
+    },
+    {
+      "employeeId": "Pariwartan.Singh",
+      "jobTitleName": "Scrum Master",
+      "firstName": "Pariwartan",
+      "lastName": "Singh",
+      "emailAddress": "Pariwartan.Singh@gmail.com"
+    }
+  ]

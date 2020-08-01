@@ -1,0 +1,22 @@
+/* .dashboard {
+    background-color: #ded0dc;
+}  */
+
+.applicationTitle {
+    background-color: cadetblue;
+    height : 80px;
+}
+
+.applicationTitle >h2 {
+    padding-left: 20px;
+    padding-top: 25px;
+    color: white;
+}
+
+.nav-bar {
+    background-color: #ff4081;
+}
+
+.nav-link {
+    font-size: 16px;
+}

@@ -1,0 +1,35 @@
+<div class="login-container">
+    <div style="margin-top: 10px; margin-left: 15px; color:white">
+        <h3>Employee Portal Login</h3>
+    </div>
+    <!-- <div class="fields">
+        <div class="login-field">
+            <div class="field-label"><label >UserName :</label></div>
+            <div><input id="username" placeholder="Username..." name="username" [(ngModel)]="username"></div>
+        </div>
+        <div class="login-field">
+            <div class="field-label"><label>Password :</label></div>
+            <div><input id="password" placeholder="Password..." name="password" [(ngModel)]="password"></div>
+        </div>
+    </div> -->
+    <div class="fields">
+    <form [formGroup]="loginForm">
+        <div class="login-field">
+            <mat-form-field appearance="legacy">
+                <mat-label class="field-label">Username</mat-label>
+                <input matInput [(ngModel)]="username" formControlName="username">
+            </mat-form-field>
+        </div>
+        <div class="login-field">
+            <mat-form-field appearance="legacy">
+                <mat-label class="field-label">Password</mat-label>
+                <input matInput [(ngModel)]="password" type="password" formControlName="password">
+            </mat-form-field>
+        </div>  
+        <div class="login-button">
+            <button mat-raised-button color="accent" (click)="loginUser()">Login</button>
+            <button mat-raised-button color="white" (click)="resetForm()">Reset</button>
+        </div>
+    </form>
+</div>
+</div>

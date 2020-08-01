@@ -1,0 +1,17 @@
+
+    <div class="applicationTitle">
+        <h2>Employee Management Portal</h2>
+    </div>
+
+<div class="dashboard">
+<nav mat-tab-nav-bar class="nav-bar">
+    <a mat-tab-link
+    *ngFor="let link of navLinks"
+    [routerLink]="link.link"
+    routerLinkActive #rla="routerLinkActive"
+    [active]="link.isActive" (click)="changeTab(link)">
+   <span class="nav-link">{{link.label}}</span>
+  </a>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
